@@ -1,0 +1,13 @@
+{
+  "name": "heitu-create",
+  "type": "module",
+  "version": "1.0.5",
+  "description": "A simple CLI tool to generate files",
+  "main": "index.mjs",
+  "bin": {
+    "heitu-create-tool": "./index.mjs"
+  },
+  "dependencies": {
+    "inquirer": "^10.1.8"
+  }
+}
