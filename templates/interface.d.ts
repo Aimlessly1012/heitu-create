@@ -1,0 +1,2 @@
+export interface ${capName}Props {
+}

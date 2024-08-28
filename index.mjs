@@ -97,6 +97,10 @@ inquirer
     },
   ])
   .then((answers) => {
-    fileNames = answers.fileNames.split(",");
+    if (answers.fileNames.length < 1) {
+      fileNames = ["index"];
+    } else {
+      fileNames = answers.fileNames.split(",");
+    }
     promptModule();
   });
